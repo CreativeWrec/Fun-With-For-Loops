@@ -6,15 +6,15 @@ namespace Fun_With_For_Loops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
 
         }
 
         public Program()
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i > 9; i++)
             {
                 Console.WriteLine(i);
+                Console.ReadLine();
             }
         }
     }
