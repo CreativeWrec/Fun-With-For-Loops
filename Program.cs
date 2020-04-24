@@ -6,16 +6,10 @@ namespace Fun_With_For_Loops
     {
         static void Main(string[] args)
         {
+            FunWithLoops funWithLoops = new FunWithLoops();
+            funWithLoops.LoopsMethod();
+
         }
 
-        public Program()
-        {
-
-            for (int i = 0; i < 9; i++)
-            {
-                Console.WriteLine(i);
-                Console.ReadLine();
-            }
-        }
     }
 }
