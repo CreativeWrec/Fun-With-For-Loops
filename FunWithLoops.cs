@@ -6,7 +6,8 @@ namespace Fun_With_For_Loops
 {
     class FunWithLoops
     {
-        public int repetition;
+        //public int repetition;
+        public string forLoop;
 
         //Enter the amount of times you want the loop to run
 
@@ -16,15 +17,16 @@ namespace Fun_With_For_Loops
         }
         public void LoopsMethod()
         {
-            Console.WriteLine("How Many Times Would You Like For The Loop To Run?");
+            //Console.WriteLine();
+            //int repetition = int.Parse(Console.ReadLine());
+            string forLoop = ("Hello World");
 
-            int repetition = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Run Loop:" + repetition + " Times");
             
-            for (int i = repetition; 0 < i; i++)
+            for (int i = 0; i < 11; i++)
             {
-                Console.WriteLine();
+                //forLoop += " " + i + " ";
+                Console.WriteLine(i);
+                //Console.ReadLine();
             }
         }
     }   
