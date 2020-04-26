@@ -25,7 +25,7 @@ namespace Fun_With_For_Loops
             
             for (int i = 0; i < userInput.Length; i++)
             {
-                if (i % 2 == 0)
+                if (i % 3 == 0)
                 //forLoop += " " + i + " ";
                 Console.WriteLine(userInput[i]);
                 Console.ReadLine();
