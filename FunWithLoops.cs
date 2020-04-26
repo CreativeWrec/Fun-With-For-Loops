@@ -26,7 +26,7 @@ namespace Fun_With_For_Loops
             {
                 //forLoop += " " + i + " ";
                 Console.WriteLine(i);
-                //Console.ReadLine();
+                Console.ReadLine();
             }
         }
     }   
