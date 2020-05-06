@@ -14,7 +14,7 @@ namespace Fun_With_For_Loops
 
         public FunWithLoops()
         {
-            
+
         }
         public void LoopsMethod()
         {
@@ -22,14 +22,26 @@ namespace Fun_With_For_Loops
             //int repetition = int.Parse(Console.ReadLine());
 
             userInput = "Hello World";
-            
+
             for (int i = 0; i < userInput.Length; i++)
             {
                 if (i % 3 == 0)
-                //forLoop += " " + i + " ";
+                    //forLoop += " " + i + " ";
                 Console.WriteLine(userInput[i]);
                 Console.ReadLine();
             }
         }
-    }   
+
+        public void AddTwoNumbers()
+        {
+            Console.WriteLine("please enter the first number:");
+            int numberOne = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("please enter the second number");
+            int numberTwo = int.Parse(Console.ReadLine());
+
+            int result = numberOne + numberTwo;
+            Console.WriteLine("The result of this addition is: " + result);
+        }
+    }
 }
